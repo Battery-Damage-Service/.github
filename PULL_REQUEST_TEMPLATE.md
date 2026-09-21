@@ -1,25 +1,24 @@
-## 📋 What has been changed?
-<!-- Brief description of the change -->
+## 📋 What changed?
+<!-- 1-3 short bullet points are enough -->
 
+## 🔗 Why this change?
+<!-- Link issue/ticket/request, or add one short sentence -->
 
-## 🏷️ Type of Change
-- [ ] `feat` – New feature
-- [ ] `fix` – Bug fix
-- [ ] `chore` – Maintenance / dependencies
-- [ ] `docs` – Documentation only
-- [ ] `refactor` – Code restructuring
-- [ ] `test` – Tests added or updated
+## 🧪 How did you check it?
+<!-- Example: tested locally, preview checked, docs-only change -->
 
-## 🧪 How has this been tested?
-<!-- Briefly describe how you tested your changes -->
+## ⚠️ Impact (only fill if relevant)
+- [ ] No production impact expected
+- [ ] Could affect production
 
+If this could affect production, add short notes:
+- Area: [ ] DB schema [ ] Config/env [ ] Auth/security [ ] Other
+- Rollback plan (one sentence):
 
-## ✅ Checklist
-- [ ] Branch name follows the required schema (`feature/`, `bugfix/`, `hotfix/`, `release/`, `chore/`)
-- [ ] Commit messages follow the Conventional Commits standard
-- [ ] All CI checks are passing
-- [ ] Tested locally
-- [ ] No direct push to `main`
+## ✅ Quick checklist
+- [ ] PR targets `main`
+- [ ] CI checks are passing (or not required for docs-only changes)
+- [ ] If DB/config/auth changed, I described the impact above
 
 ## 📸 Screenshots (optional)
-<!-- If UI changes are included, feel free to attach a screenshot -->
+<!-- Add screenshot(s) for UI changes -->
